@@ -63,3 +63,4 @@ ax.plot(x, f(x, *p), label = "Dopasowanie ax+b")
 
 ax.legend()
 plt.show()
+fig.savefig("fit1.pdf")
